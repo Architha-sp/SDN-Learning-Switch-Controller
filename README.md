@@ -42,7 +42,7 @@ mininet> pingall
 ### 4. Inspect Flow Tables
 To see how the controller has programmed the switch, run this in a **third terminal**:
 ```bash
-sudo ovs-ofctl dump-flows s1
+dpctl dump-flows
 ```
 
 ##  Architecture Overview
