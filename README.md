@@ -52,7 +52,7 @@ The architecture consists of:
 * **Data Plane:** The Mininet-emulated Open vSwitch that forwards packets based on the flow table.
 * **Southbound Interface:** OpenFlow protocol used for communication between the controller and the switch.
 
-## 📊 Troubleshooting
+##  Troubleshooting
 * **Clean up Mininet:** If you get an error saying the controller is already running, run `sudo mn -c`.
 * **No Connectivity:** Ensure the POX controller terminal is active and showing logs of packet-in events.
 
